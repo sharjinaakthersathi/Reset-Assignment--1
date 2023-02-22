@@ -53,3 +53,9 @@ section {
     margin: 50px 50px 40px 50px;
     border: 20px 20px;
 }
+
+.footer {
+    background-color: gray;
+    padding-left: 5%;
+    display: flex;
+}
