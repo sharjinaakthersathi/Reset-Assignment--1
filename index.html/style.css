@@ -3,16 +3,53 @@ body {
     padding: 0px;
 }
 
+section {
+    display: flex;
+}
+
 .top-banner {
-    background-image: url(/images/banner/banner3.png);
+    background-image: url('/images/banner/banner3.png');
     background-repeat: no-repeat;
     background-size: cover;
+    width: 50%;
+    height: 50%;
 
 }
 
 .banner-text {
-    text-align: center;
-    padding: 200px 180px;
-    background-color: azure;
+    text-align: justify;
+    font-size: 20px;
+    font-style: inherit;
+    color: white;
+    padding-right: 5%;
 
+
+}
+
+.paragraph {
+    font-size: 15px;
+    padding-right: 5px;
+}
+
+.top-banner img {
+    width: 200%;
+}
+
+.btn {
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+    color: deepskyblue;
+    text-decoration: dotted;
+}
+
+.third-header {
+    text-align: center;
+}
+
+.icon-part {
+    padding-right: 50px;
+    margin: 50px 50px 40px 50px;
+    border: 20px 20px;
 }
