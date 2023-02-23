@@ -7,6 +7,10 @@ section {
     display: flex;
 }
 
+.header {
+    padding-right: 100px;
+}
+
 .top-banner {
     background-image: url('/images/banner/banner3.png');
     background-repeat: no-repeat;
@@ -17,18 +21,36 @@ section {
 }
 
 .banner-text {
-    text-align: justify;
+    text-align: right;
     font-size: 20px;
     font-style: inherit;
     color: white;
-    padding-right: 5%;
+}
 
+.person {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 200px;
+    margin-bottom: 30px;
+}
 
+.paragraph-two {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding-left: 200px;
+    margin-top: 50px;
+}
+
+.li {
+    list-style-position: inside;
+    list-style-image: url("tick.png");
+    font-size: 30px;
+    margin: 30px;
 }
 
 .paragraph {
     font-size: 15px;
-    padding-right: 5px;
+    padding-right: 100px;
 }
 
 .top-banner img {
@@ -41,7 +63,8 @@ section {
     font-weight: 400;
     text-align: justify;
     color: deepskyblue;
-    text-decoration: dotted;
+    border-radius: 10px;
+    margin-right: 100px;
 }
 
 .third-header {
@@ -54,8 +77,33 @@ section {
     border: 20px 20px;
 }
 
+.watch {
+    height: 250px;
+    width: 800px;
+    padding-left: 200px;
+    margin-bottom: 100px;
+}
+
+.Subscribe-part {
+    padding-left: 400px;
+
+}
+
+.Subscribe-btn {
+    margin-top: 30px;
+    background-color: rgb(31, 117, 237);
+    padding: 5px 5px 5px 5px;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+}
+
 .footer {
-    background-color: gray;
-    padding-left: 5%;
+    background-color: whitesmoke;
+    font-size: 15px;
+    line-height: 20px;
+    padding-left: 100px;
+    border: 50px;
+    background-origin: padding-box;
     display: flex;
 }
