@@ -93,6 +93,31 @@ section {
     color: #1935d2;
 }
 
+.extra-part {
+    display: flex;
+    background-color: #90d5e2;
+}
+
+.game {
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 100px;
+}
+
+.football {
+    padding-left: 20px;
+    border-bottom: 50px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.cricate {
+    padding-left: 200px;
+    border-bottom: 50px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
 .Subscribe-part {
     padding-left: 250px;
 }
