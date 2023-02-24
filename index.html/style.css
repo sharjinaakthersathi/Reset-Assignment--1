@@ -12,7 +12,7 @@ section {
 }
 
 .top-banner {
-    background-image: url('/images/banner/banner3.png');
+    background-image: url('./images/banner/banner3.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 50%;
@@ -75,7 +75,7 @@ section {
 }
 
 .watch {
-    background: linear-gradient(to right, #1935d2, #54d9f1), url(/images/watch.png);
+    background: linear-gradient(to right, #1935d2, #54d9f1), url(./images/watch.png);
     height: 200px;
     width: 740px;
     padding-left: 50px;
