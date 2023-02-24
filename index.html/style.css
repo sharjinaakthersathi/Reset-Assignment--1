@@ -77,17 +77,37 @@ section {
     border: 20px 20px;
 }
 
+.header-mindset {
+    margin-left: 10px;
+    font-size: 30px;
+    text-align: left;
+    color: white;
+
+}
+
 .watch {
-    height: 250px;
-    width: 800px;
-    padding-left: 200px;
-    margin-bottom: 100px;
+    background: linear-gradient(to right, #1935d2, #54d9f1), url(/images/watch.png);
+    height: 200px;
+    width: 740px;
+    padding-left: 50px;
+    margin-left: 200px;
+    margin-bottom: 150px;
+
+}
+
+.watch-btn {
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #1935d2;
 }
 
 .Subscribe-part {
-    padding-left: 400px;
-
+    padding-left: 250px;
 }
+
 
 .Subscribe-btn {
     margin-top: 30px;
@@ -98,8 +118,13 @@ section {
     border-radius: 5px;
 }
 
+.footer-section {
+    padding-left: 100px;
+}
+
 .footer {
-    background-color: whitesmoke;
+    background-color: black;
+    color: white;
     font-size: 15px;
     line-height: 20px;
     padding-left: 100px;
