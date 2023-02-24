@@ -41,20 +41,9 @@ section {
     margin-top: 50px;
 }
 
-.li {
-    list-style-position: inside;
-    list-style-image: url("tick.png");
-    font-size: 30px;
-    margin: 30px;
-}
-
 .paragraph {
     font-size: 15px;
     padding-right: 100px;
-}
-
-.top-banner img {
-    width: 200%;
 }
 
 .btn {
